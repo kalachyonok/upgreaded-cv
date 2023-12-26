@@ -4,6 +4,7 @@ import { Vector } from "./Components/Vector";
 import { Info } from "./Components/Info";
 import { Photo } from "./Components/Photo";
 import { About } from "./Components/About";
+import { Skills } from "./Components/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Info />
       <Photo />
       <About />
+      <Skills />
     </div>
   );
 }

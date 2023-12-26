@@ -1,0 +1,55 @@
+.skills {
+  font-size: 3.4rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  margin-top: 19px;
+}
+
+.star {
+  font-size: 2rem;
+  border-radius: 1px;
+
+  margin-top: 20px;
+  margin-bottom: 110px;
+}
+
+@media (max-width: 700px) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
