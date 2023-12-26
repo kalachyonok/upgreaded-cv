@@ -1,0 +1,12 @@
+.vector {
+  height: 1px;
+  border: 1px solid #828282;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
