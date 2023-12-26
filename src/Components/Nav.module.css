@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.link {
+  font-size: 1.8rem;
+  color: #828282;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+@media (max-width: 500px) {
+  .nav {
+    height: calc(100vh - 66px);
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .link {
+    font-size: 3.4rem;
+  }
+}
