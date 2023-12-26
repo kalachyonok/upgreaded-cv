@@ -19,7 +19,7 @@ export const About = () => {
 
             <p>
               I am committed to transitioning my career into this{" "}
-              <span className={style.span}>new direction</span> and am
+              <span className={style.span}>new direction</span> and I am
               enthusiastic about the opportunities it presents. I'm excited to
               embark on this journey and look forward to growing and
               contributing in the world of frontend development.
