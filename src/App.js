@@ -1,5 +1,7 @@
+import style from "./App.module.css";
+
 function App() {
-  return <h1>My new CV</h1>;
+  return <div className={style.page}>My new CV</div>;
 }
 
 export default App;
