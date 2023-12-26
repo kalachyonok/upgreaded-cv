@@ -1,9 +1,10 @@
 import style from "./Vector.module.css";
+import { Container } from "../Wrappers/Container";
 
 export const Vector = () => {
   return (
-    <div className={style.container}>
+    <Container>
       <div className={style.vector}></div>
-    </div>
+    </Container>
   );
 };

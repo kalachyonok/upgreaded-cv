@@ -1,12 +1,13 @@
 import style from "./Header.module.css";
 import { Nav } from "./Nav";
+import { Container } from "../Wrappers/Container";
 
 export const Header = () => {
   return (
-    <div className={style.container}>
+    <Container>
       <header className={style.header}>
         <Nav />
       </header>
-    </div>
+    </Container>
   );
 };
