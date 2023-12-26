@@ -10,7 +10,7 @@ export const Nav = () => {
           </a>
         </li>
         <li>
-          <a className={style.link} href="#about-me">
+          <a className={style.link} href="#about">
             About me
           </a>
         </li>

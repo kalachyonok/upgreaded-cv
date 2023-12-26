@@ -1,0 +1,31 @@
+.about {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 1.8rem;
+}
+
+.title {
+  font-size: 3.4rem;
+
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  max-width: 520px;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.span {
+  font-style: italic;
+  font-weight: bold;
+  color: #828282;
+}

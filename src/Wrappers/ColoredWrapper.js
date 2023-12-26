@@ -1,5 +1,5 @@
 import style from "./ColoredWrapper.module.css";
 
-export const ColoredWrapper = () => {
-  return <div className={style.colored}></div>;
+export const ColoredWrapper = (props) => {
+  return <div className={style.colored}>{props.children}</div>;
 };
