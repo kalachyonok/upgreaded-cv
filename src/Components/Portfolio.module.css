@@ -40,6 +40,7 @@
 .pictures {
   width: 430px;
   height: 305px;
+  border-style: dotted;
 }
 
 @media (max-width: 924px) {

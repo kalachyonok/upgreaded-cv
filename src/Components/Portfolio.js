@@ -23,6 +23,34 @@ export const Portfolio = () => {
           <div className={style.projects}>
             <div>
               <a
+                href="https://kalachyonok-plants-part3.netlify.app/#about"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className={style.pictures}
+                  src="img/plants.jpg"
+                  alt="plants"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://travelling-site-example.netlify.app/#second"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className={style.pictures}
+                  src="img/travel.jpg"
+                  alt="travel"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a
                 href="https://kalachyonok.github.io/form/"
                 target="_blank"
                 rel="noreferrer"
