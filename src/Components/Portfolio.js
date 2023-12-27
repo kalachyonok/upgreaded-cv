@@ -23,7 +23,7 @@ export const Portfolio = () => {
           <div className={style.projects}>
             <div>
               <a
-                href="https://kalachyonok-plants-part3.netlify.app/#about"
+                href="https://kalachyonok-plants-part3.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -37,7 +37,7 @@ export const Portfolio = () => {
 
             <div>
               <a
-                href="https://travelling-site-example.netlify.app/#second"
+                href="https://travelling-site-example.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
