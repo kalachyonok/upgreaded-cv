@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 .page {
   left: 0px;
   top: 0px;

@@ -4,10 +4,12 @@ import { ColoredWrapper } from "../Wrappers/ColoredWrapper";
 
 export const About = () => {
   return (
-    <ColoredWrapper id="about">
+    <ColoredWrapper>
       <Container>
         <div className={style.about}>
-          <h2 className={style.title}>About me</h2>
+          <h2 className={style.title} id="about">
+            About me
+          </h2>
           <div className={style.content}>
             <p>
               I am a{" "}
