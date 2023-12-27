@@ -6,6 +6,7 @@ import { Photo } from "./Components/Photo";
 import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
 import { Portfolio } from "./Components/Portfolio";
+import { Education } from "./Components/Education";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Education />
     </div>
   );
 }
