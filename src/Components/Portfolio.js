@@ -14,9 +14,8 @@ export const Portfolio = () => {
           <pre className={style.border}>
             <code className={style.code}>
               {`function greeting {
-            console.log("Hello World!")
-                }`}
-              ;
+  console.log("Hello World!");
+ }`}
             </code>
           </pre>
 
