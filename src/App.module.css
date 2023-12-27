@@ -8,3 +8,11 @@
 
   background: #ffffff;
 }
+
+.arrow {
+  position: fixed;
+  z-index: 2;
+  right: 10%;
+  bottom: 5%;
+  cursor: pointer;
+}

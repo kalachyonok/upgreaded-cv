@@ -13,6 +13,9 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <div className={style.page}>
+      <div>
+        <img className={style.arrow} src="img/arrow.svg" alt="arrow" />
+      </div>
       <Header />
       <Vector />
       <Info />
